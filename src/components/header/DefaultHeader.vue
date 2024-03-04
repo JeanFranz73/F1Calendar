@@ -1,14 +1,14 @@
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
+import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 
 import { MoonIcon, SunIcon, Bars3Icon } from '@heroicons/vue/20/solid'
 import { useConfigStore } from '@/stores/config.store'
 
 const navigation = [
   { name: 'Dash', href: '/' },
-  { name: 'Teams', href: '4386753' },
-  { name: 'Drivers', href: '4386753' },
-  { name: 'Calendar', href: '4386753' },
+  { name: 'Teams', href: '/lorem' },
+  { name: 'Drivers', href: '/lorem' },
+  { name: 'Calendar', href: '/lorem' },
 ]
 </script>
 
