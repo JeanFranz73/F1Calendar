@@ -1,0 +1,11 @@
+services:
+  dashboard:
+    container_name: f1calendar
+    image: node
+    working_dir: /var/www/html/app
+    command: sh -c "yarn install && yarn dev"
+    restart: unless-stopped
+    ports:
+      - 5173:5173
+    volumes:
+      - ./:/var/www/html/app
